@@ -1,0 +1,52 @@
+{
+  "name": "roseto-del-drago",
+  "private": false,
+  "description": "",
+  "version": "0.1.0",
+  "author": "",
+  "dependencies": {
+    "@chakra-ui/core": "^0.6.1",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@fortawesome/free-regular-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "emotion-theming": "^10.0.27",
+    "gatsby": "^2.19.32",
+    "gatsby-background-image": "^0.10.2",
+    "gatsby-cli": "^2.10.2",
+    "gatsby-image": "^2.2.43",
+    "gatsby-plugin-chakra-ui": "^0.1.4",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.2.44",
+    "gatsby-plugin-offline": "^3.0.37",
+    "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-sharp": "^2.4.7",
+    "gatsby-source-filesystem": "^2.1.50",
+    "gatsby-transformer-sharp": "^2.3.17",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1",
+    "react-photo-gallery": "^8.0.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
