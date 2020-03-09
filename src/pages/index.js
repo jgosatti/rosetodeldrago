@@ -206,7 +206,7 @@ const IndexPage = () => {
                         Sale Storiche per eventi
                     </Heading>
                     <Text fontSize="1.3rem" mb="3rem">
-                        Casa Cassan, è anche la sede valtellinese dell'associazion culturale{" "}
+                        Casa Cassan è anche la sede valtellinese dell'associazione culturale{" "}
                         <Link href="https://www.liberodiscrivere.it/" isExternal={true}>
                             <Text as="i">
                                 <b>Liberodiscrivere</b>
@@ -214,7 +214,7 @@ const IndexPage = () => {
                             <FontAwesomeIcon icon={faRegistered} size="xs" />
                         </Link>
                         . Questi spazi affrescati, voltati, sapientemente restaurati sono visitabili su richiesta e
-                        possono ospitare matrimoni, cerrimonie, eventi, corsi, mostre, set fotografici, conferenze,
+                        possono ospitare matrimoni, cerimonie, eventi, corsi, mostre, set fotografici, conferenze,
                         presentazioni, concerti e seminari yoga.
                     </Text>
                 </Box>

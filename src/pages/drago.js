@@ -117,9 +117,7 @@ const Drago = () => {
                         </Stack>
                     </Box>
                     <Box my="8">
-                        <Text as="i">
-                            <FontAwesomeIcon icon={faParking} /> Parcheggio libero nelle vicinanze
-                        </Text>
+                        <Text as="i">Giardino accessibile su richiesta.</Text>
                     </Box>
                     <Box my="8">
                         <Text as="i">Parcheggio coperto per</Text>
@@ -131,6 +129,11 @@ const Drago = () => {
                                 <FontAwesomeIcon icon={faMotorcycle} /> Moto
                             </Tag>
                         </Stack>
+                    </Box>
+                    <Box my="8">
+                        <Text as="i">
+                            <FontAwesomeIcon icon={faParking} /> Parcheggio auto libero nelle immediate vicinanze.
+                        </Text>
                     </Box>
                     <Box my="8">
                         <Text as="b">

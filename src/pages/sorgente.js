@@ -22,7 +22,7 @@ import {
     SlideIn
 } from "@chakra-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faParking, faWifi } from "@fortawesome/free-solid-svg-icons";
+import { faParking, faWifi, faBicycle, faMotorcycle, faCalendarCheck } from "@fortawesome/free-solid-svg-icons";
 import { faAirbnb } from "@fortawesome/free-brands-svg-icons";
 
 import Layout from "../components/layout";
@@ -72,10 +72,10 @@ const Sorgente = () => {
                     </Flex>
                     <Heading as="h1">La "Sorgente"</Heading>
                     <Text my="2rem" fontSize="1.3rem">
-                        La Sorgente è una casa intera suddivisa su due piani, ideale per le famiglie: dall'ingresso si
+                        La Sorgente è una casa intera suddivisa su due piani, ideale per le famiglie. Dall'ingresso si
                         accede a una camera da letto e a una comoda scala in pietra che porta al piano superiore. A metà
                         scala c'è un ampio bagno e, proseguendo, un luminoso soggiorno pranzo con cucina attrezzata, su
-                        cui si affacciano due spaziose camere da letto. Tutti i pavimenti son in caldo legno di larice.
+                        cui si affacciano due spaziose camere da letto. Tutti i pavimenti sono in caldo legno di larice.
                         Terrazzo al piano arredato ove è possibile fare colazione all'ombra del pergolato.
                     </Text>
                     <Text mt="4">L'appartamento è composto da:</Text>
@@ -113,11 +113,33 @@ const Sorgente = () => {
                             <Tag rounded="full" backgroundColor="blue.50" mb="4">
                                 Terrazza al piano
                             </Tag>
+                            <Tag rounded="full" backgroundColor="blue.50" mb="4">
+                                Locale lavanderia
+                            </Tag>
+                        </Stack>
+                    </Box>
+                    <Box my="8">
+                        <Text as="i">Giardino accessibile su richiesta.</Text>
+                    </Box>
+                    <Box my="8">
+                        <Text as="i">Parcheggio coperto per:</Text>
+                        <Stack spacing="4" isInline={true} my="4" wrap="wrap">
+                            <Tag rounded="full" backgroundColor="blue.50" mb="4">
+                                <FontAwesomeIcon icon={faBicycle} /> Biciclette
+                            </Tag>
+                            <Tag rounded="full" backgroundColor="blue.50" mb="4">
+                                <FontAwesomeIcon icon={faMotorcycle} /> Moto
+                            </Tag>
                         </Stack>
                     </Box>
                     <Box my="8">
                         <Text as="i">
                             <FontAwesomeIcon icon={faParking} /> Parcheggio libero nelle vicinanze
+                        </Text>
+                    </Box>
+                    <Box my="8">
+                        <Text as="b">
+                            <FontAwesomeIcon icon={faCalendarCheck} /> Check-in disponibile 24 ore su 24
                         </Text>
                     </Box>
                 </Box>
