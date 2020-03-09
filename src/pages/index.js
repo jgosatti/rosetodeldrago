@@ -198,6 +198,18 @@ const IndexPage = () => {
                         onClick={() => handleShowImage("ANC_1753")}
                         image={files.find(x => x.name === "ANC_1753").childImageSharp.fluid}
                     />
+                    <ZoomableImage
+                        onClick={() => handleShowImage("ANC_1011")}
+                        image={files.find(x => x.name === "ANC_1011").childImageSharp.fluid}
+                    />
+                    <ZoomableImage
+                        onClick={() => handleShowImage("ANC_1064")}
+                        image={files.find(x => x.name === "ANC_1064").childImageSharp.fluid}
+                    />
+                    <ZoomableImage
+                        onClick={() => handleShowImage("ANC_0831")}
+                        image={files.find(x => x.name === "ANC_0831").childImageSharp.fluid}
+                    />
                 </Grid>
             </Box>
             <Box maxW="1280px" mx="auto" py="3rem" px="1rem">
@@ -224,12 +236,24 @@ const IndexPage = () => {
                         image={files.find(x => x.name === "ANC_1910").childImageSharp.fluid}
                     />
                     <ZoomableImage
-                        onClick={() => handleShowImage("ANC_1911")}
-                        image={files.find(x => x.name === "ANC_1911").childImageSharp.fluid}
+                        onClick={() => handleShowImage("rdd11")}
+                        image={files.find(x => x.name === "rdd11").childImageSharp.fluid}
                     />
                     <ZoomableImage
                         onClick={() => handleShowImage("ANC_1955")}
                         image={files.find(x => x.name === "ANC_1955").childImageSharp.fluid}
+                    />
+                    <ZoomableImage
+                        onClick={() => handleShowImage("ANC_1918")}
+                        image={files.find(x => x.name === "ANC_1918").childImageSharp.fluid}
+                    />
+                    <ZoomableImage
+                        onClick={() => handleShowImage("san_carlo")}
+                        image={files.find(x => x.name === "san_carlo").childImageSharp.fluid}
+                    />
+                    <ZoomableImage
+                        onClick={() => handleShowImage("rdd13")}
+                        image={files.find(x => x.name === "rdd13").childImageSharp.fluid}
                     />
                 </Grid>
             </Box>

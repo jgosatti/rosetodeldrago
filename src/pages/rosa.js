@@ -148,6 +148,18 @@ const Rosa = () => {
                         onClick={() => handleShowImage("rosa_bagno")}
                         image={files.find(x => x.name === "rosa_bagno").childImageSharp.fluid}
                     />
+                    <ZoomableImage
+                        onClick={() => handleShowImage("rd5")}
+                        image={files.find(x => x.name === "rd5").childImageSharp.fluid}
+                    />
+                    <ZoomableImage
+                        onClick={() => handleShowImage("ANC_1590")}
+                        image={files.find(x => x.name === "ANC_1590").childImageSharp.fluid}
+                    />
+                    <ZoomableImage
+                        onClick={() => handleShowImage("ANC_1569")}
+                        image={files.find(x => x.name === "ANC_1569").childImageSharp.fluid}
+                    />
                 </Grid>
                 <Box my="8" maxW="960px" mx="auto" id="seemore">
                     <Text as="b" fontSize="1.3rem">

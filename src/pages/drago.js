@@ -163,6 +163,10 @@ const Drago = () => {
                         onClick={() => handleShowImage("drago_bagno")}
                         image={files.find(x => x.name === "drago_bagno").childImageSharp.fluid}
                     />
+                    <ZoomableImage
+                        onClick={() => handleShowImage("wallpaper")}
+                        image={files.find(x => x.name === "wallpaper").childImageSharp.fluid}
+                    />
                 </Grid>
 
                 <Box my="8" maxW="960px" mx="auto" id="seemore">
