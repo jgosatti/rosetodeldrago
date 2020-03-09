@@ -27,6 +27,7 @@ import { faAirbnb } from "@fortawesome/free-brands-svg-icons";
 
 import Layout from "../components/layout";
 import ZoomableImage from "../components/zoomableImage";
+import SEO from "../components/seo";
 
 const Sorgente = () => {
     const data = useStaticQuery(graphql`
@@ -54,6 +55,7 @@ const Sorgente = () => {
 
     return (
         <Layout>
+            <SEO title="Sorgente" />
             <Box maxW="1280px" mx="auto" py="3rem" px="1rem">
                 <Box maxW="960px" mx="auto">
                     <Flex justify="space-between" align="center">

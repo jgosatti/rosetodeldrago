@@ -6,6 +6,7 @@ import styled from "styled-components";
 import { Box, Link, Button, Heading, Text } from "@chakra-ui/core";
 
 import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const ImagesContainer = styled.div`
     display: grid;
@@ -37,6 +38,7 @@ const About = () => {
 
     return (
         <Layout>
+            <SEO title="About" />
             <Box maxW="960px" mx="auto" py="3rem" px="1rem">
                 <Link as={GatsbyLink} to="/">
                     <Button variant="outline" my="8" borderColor="blue.400" color="blue.400">

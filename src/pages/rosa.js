@@ -27,6 +27,7 @@ import { faAirbnb } from "@fortawesome/free-brands-svg-icons";
 
 import Layout from "../components/layout";
 import ZoomableImage from "../components/zoomableImage";
+import SEO from "../components/seo";
 
 const ImagesContainer = styled.div`
     display: grid;
@@ -65,6 +66,7 @@ const Rosa = () => {
 
     return (
         <Layout>
+            <SEO title="Rosa" />
             <Box maxW="960px" mx="auto" py="3rem" px="1rem">
                 <Flex justify="space-between" align="center">
                     <Link as={GatsbyLink} to="/">

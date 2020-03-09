@@ -27,6 +27,7 @@ import {
 import Layout from "../components/layout";
 import ApartmentCard from "../components/apartmentCard";
 import ZoomableImage from "../components/zoomableImage";
+import SEO from "../components/seo";
 
 const ImageContainer = styled(BackgroundImage)`
     background-image: url(${props => props.image});
@@ -92,6 +93,7 @@ const IndexPage = () => {
 
     return (
         <Layout>
+            <SEO title="Home" />
             <ImageContainer fluid={files.find(x => x.name === "sdraio_vigne").childImageSharp.fluid}>
                 <Flex direction="column" justify="space-between" h="100%" maxW="960px" mx="auto">
                     <Box>
