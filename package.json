@@ -14,7 +14,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.9",
     "emotion-theming": "^10.0.27",
-    "gatsby": "^2.19.32",
+    "gatsby": "^4.25.7",
     "gatsby-background-image": "^0.10.2",
     "gatsby-cli": "^2.10.2",
     "gatsby-image": "^2.2.43",
